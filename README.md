@@ -20,7 +20,7 @@ sudo ./diagnostic.sh
 ## Installation (Alternative)
 1. Download the binary from the repository using curl
 ```bash
-curl -O https://www.github.com/awesomelewis2007/ldiag/raw/master/build/diagnostic
+curl -O https://raw.githubusercontent.com/awesomelewis2007/Ldiag/main/build/diagnostic
 ```
 2. Make the binary executable
 ```bash
