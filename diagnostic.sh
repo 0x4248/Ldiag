@@ -1,7 +1,7 @@
 #!/bin/bash
 # ldiag - A simple bash script to create a diagnostic report of the system
 # GitHub: https://www.gitub.com/awesomelewis2007/ldiag
-# By: awesomelewis2007
+# By: Lewis Evans
 # If there are any issues please create an issue on GitHub
 
 if [ "$EUID" -ne 0 ]
@@ -44,7 +44,7 @@ fi
 if [ "$1" == "-h" ]; then
     echo "ldiag - A simple bash script to create a diagnostic report of the system"
     echo "GitHub: https://www.gitub.com/awesomelewis2007/ldiag"
-    echo "By: awesomelewis2007"
+    echo "By: Lewis Evans"
     echo "If there are any issues please create an issue on GitHub"
     echo "Usage: sudo ./ldiag.sh [OPTIONS]"
     echo "Options:"

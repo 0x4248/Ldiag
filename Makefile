@@ -1,7 +1,7 @@
 #!/usr/bin/make 
 # ldiag - A simple bash script to create a diagnostic report of the system
 # GitHub: https://www.gitub.com/awesomelewis2007/ldiag
-# By: awesomelewis2007
+# By: Lewis Evans
 # If there are any issues please create an issue on GitHub
 
 CSCRIPTOUT	= build/diagnostic.c
