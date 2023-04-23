@@ -1,8 +1,8 @@
 #!/bin/bash
 # ldiag - A simple bash script to create a diagnostic report of the system
 # GitHub: https://www.gitub.com/awesomelewis2007/ldiag
+# Licence: GPL-3.0
 # By: Lewis Evans
-# If there are any issues please create an issue on GitHub
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root using sudo"
