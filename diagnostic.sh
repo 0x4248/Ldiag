@@ -1,7 +1,7 @@
 #!/bin/bash
 # ldiag - A simple bash script to create a diagnostic report of the system
 # GitHub: https://www.gitub.com/awesomelewis2007/ldiag
-# Licence: GPL-3.0
+# Licence: GNU General Public License v3.0
 # By: Lewis Evans
 
 if [ "$EUID" -ne 0 ]
