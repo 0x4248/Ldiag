@@ -17,7 +17,7 @@ if [ "$1" == "-q" ]; then
 		touch diagnostic.txt
 	fi
 	echo "Diagnostic report" > diagnostic.txt
-	echo "This file was created by ldiag check out https://www.gitub.com/awesomelewis2007/ldiag for more information" >> diagnostic.txt
+	echo "This file was created using ldiag check out https://www.gitub.com/awesomelewis2007/ldiag for more information" >> diagnostic.txt
 	date >> diagnostic.txt
 	echo "====================" >> diagnostic.txt
 	echo " ====================[uname -a]====================" >> diagnostic.txt
@@ -38,6 +38,7 @@ if [ "$1" == "-q" ]; then
 	ps -ef >> diagnostic.txt
 	echo "====================[ip addr]====================" >> diagnostic.txt
 	ip addr >> diagnostic.txt
+	echo "====================[END OF REPORT]====================" >> diagnostic.txt
 	exit 0
 fi
 
