@@ -1,0 +1,15 @@
+{
+    "name": "Ldiag",
+    "description": "A quick and easy way to make diagnostic reports for linux systems.",
+    "version": "",
+    "main_file": "diagnostic.sh",
+    "author": "Lewis Evans",
+    "license": "none",
+    "url": "https://www.github.com/awesomelewis2007/Ldiag",
+    "email": "none",
+    "languages": [
+        "shell",
+        "c"
+    ],
+    "actions": {}
+}
