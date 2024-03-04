@@ -91,6 +91,8 @@ echo "====================[ps -ef]====================" >> diagnostic.txt
 ps -ef >> diagnostic.txt
 echo "====================[ip addr]====================" >> diagnostic.txt
 ip addr >> diagnostic.txt
+echo "====================[ifconfig]====================" >> diagnostic.txt
+ifconfig >> diagnostic.txt
 
 while true; do
     echo "Do you want to add any more commands to the report? (y/n)"
