@@ -39,3 +39,6 @@ sudo ./diagnostic.sh
 ```
 ## Contributing
 Pull requests are welcome for any changes you would like to make.
+
+## Licence
+This project is licenced under the GNU General Public Licence v3.0 please see the [LICENCE](LICENCE) file for more information.
