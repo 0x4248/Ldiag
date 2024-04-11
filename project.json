@@ -3,9 +3,9 @@
     "description": "A quick and easy way to make diagnostic reports for linux systems.",
     "version": "",
     "main_file": "diagnostic.sh",
-    "author": "Lewis Evans",
+    "author": "0x4248",
     "license": "GNU General Public License v3.0",
-    "url": "https://www.github.com/lewisevans2007/Ldiag",
+    "url": "https://www.github.com/0x4248/Ldiag",
     "email": "none",
     "languages": [
         "shell",

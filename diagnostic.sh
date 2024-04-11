@@ -1,8 +1,8 @@
 #!/bin/bash
 # ldiag - A simple bash script to create a diagnostic report of the system
-# GitHub: https://www.gitub.com/lewisevans2007/ldiag
+# GitHub: https://www.gitub.com/0x4248/ldiag
 # Licence: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root using sudo"
@@ -17,7 +17,7 @@ if [ "$1" == "-q" ]; then
 		touch diagnostic.txt
 	fi
 	echo "Diagnostic report" > diagnostic.txt
-	echo "This file was created using ldiag check out https://www.gitub.com/lewisevans2007/ldiag for more information" >> diagnostic.txt
+	echo "This file was created using ldiag check out https://www.gitub.com/0x4248/ldiag for more information" >> diagnostic.txt
 	date >> diagnostic.txt
 	echo "====================" >> diagnostic.txt
 	echo " ====================[uname -a]====================" >> diagnostic.txt
@@ -44,8 +44,8 @@ fi
 
 if [ "$1" == "-h" ]; then
     echo "ldiag - A simple bash script to create a diagnostic report of the system"
-    echo "GitHub: https://www.gitub.com/lewisevans2007/ldiag"
-    echo "By: Lewis Evans"
+    echo "GitHub: https://www.gitub.com/0x4248/ldiag"
+    echo "By: 0x4248"
     echo "If there are any issues please create an issue on GitHub"
     echo "Usage: sudo ./ldiag.sh [OPTIONS]"
     echo "Options:"
@@ -70,7 +70,7 @@ else
 	touch diagnostic.txt
 fi
 echo "Diagnostic report" > diagnostic.txt
-echo "This file was created by ldiag check out https://www.gitub.com/lewisevans2007/ldiag for more information" >> diagnostic.txt
+echo "This file was created by ldiag check out https://www.gitub.com/0x4248/ldiag for more information" >> diagnostic.txt
 date >> diagnostic.txt
 echo "====================" >> diagnostic.txt
 echo " ====================[uname -a]====================" >> diagnostic.txt

@@ -4,7 +4,7 @@ A quick and easy way to make diagnostic reports for linux systems.
 ## Installation
 1. Download the script from the repository using curl
 ```bash
-curl -O https://raw.githubusercontent.com/lewisevans2007/Ldiag/main/diagnostic.sh
+curl -O https://raw.githubusercontent.com/0x4248/Ldiag/main/diagnostic.sh
 ```
 2. Make the script executable
 ```bash
@@ -20,7 +20,7 @@ sudo ./diagnostic.sh
 ## Installation (Alternative)
 1. Download the binary from the repository using curl
 ```bash
-curl -O https://raw.githubusercontent.com/lewisevans2007/Ldiag/main/build/diagnostic
+curl -O https://raw.githubusercontent.com/0x4248/Ldiag/main/build/diagnostic
 ```
 2. Make the binary executable
 ```bash
